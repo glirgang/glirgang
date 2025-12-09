@@ -20,90 +20,173 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Frontend Engineer** with **4+ years of experience** building web and mobile applications, including **2.5+ years in professional markets**. Specialized in creating high-performance, scalable interfaces with focus on user experience and software architecture.
+I'm a **Frontend Engineer** with **4+ years of experience** (2.5+ in professional environments) building web and mobile applications. I specialize in **software architecture**, **performance optimization**, and creating scalable interfaces that solve real business problems.
 
-Currently working as a **Frontend Engineer** developing robust solutions for the Brazilian real estate market, highlighting **[DWV](https://site.dwvapp.com.br/)** - Brazil's largest B2B real estate platform, connecting 600+ developers and 40k+ brokers.
+I'm not just a code executor — I participate in product alignment meetings, identify gaps in requirements, create technical specifications, and lead projects from planning to delivery. I'm responsible for **architectural decisions**, **code standards**, and **technical infrastructure** of the frontend in my current team.
 
-🎯 **Goal:** Work remotely and become a technical reference in Frontend Development
+🏢 **Current:** Frontend Engineer at **[DWV](https://site.dwvapp.com.br/)** — Brazil's largest B2B real estate platform (600+ developers, 40k+ brokers)
+
+🎯 **Goal:** Work remotely as a technical reference in Frontend, contributing to products with real impact
 
 🎓 **Education:** Systems Analysis and Development (graduating 2025)
 
-🌍 **Location:** Santa Catarina, Brazil | Available for remote work worldwide
+🌍 **Location:** Santa Catarina, Brazil | Open to remote opportunities worldwide
 
 <br/>
 
-## 💼 Available for Freelance Projects
+## 🧠 How I Think About Code
 
-<div align="center">
+I believe frontend is more than "making things pretty" — it's about **architecture that scales**, **maintainable code**, and **exceptional user experience**.
+
+```typescript
+const myApproach = {
+  architecture: {
+    pattern: 'Clean Architecture with layered separation',
+    layers: ['Domain', 'Infrastructure', 'Application', 'Presentation'],
+    philosophy: 'Business logic isolated from UI, reusable and testable'
+  },
   
-  🟢 **Status:** Open for opportunities
+  stateManagement: {
+    preferred: 'Zustand',
+    reason: 'Avoids Context API re-render issues, simpler API, better DX',
+    advanced: 'Singleton + Closures for WebSocket management'
+  },
   
-</div>
-
-**What I can help you with:**
-- 🛍️ E-commerce platforms with payment integration
-- 📊 Analytics dashboards and admin panels
-- 📱 Cross-platform mobile apps with React Native
-- 🚀 High-converting landing pages
-- 🔧 Bug fixes and performance optimization
-- 🎨 Figma to React conversion
-
-**Response time:** Within 2 hours | **Availability:** 30+ hrs/week | **Timezone:** Flexible
-
-📧 **Let's talk:** guilirgang@gmail.com
+  decisionMaking: {
+    style: 'Data-driven, always questioning defaults',
+    example: 'Chose Zustand over Context after profiling re-render patterns'
+  }
+}
+```
 
 <br/>
 
-## 🚀 Featured Projects
+## 🏗️ Architecture & Patterns I Use
 
-### 🏗️ **DWV - Real Estate Platform**
-Complete real estate hub connecting developers and brokers across Brazil
-- **Stack:** React, React Native, TypeScript, Next.js
-- **Features:** Real-time chat system, Complete CRM, Proposal management, External API integrations, Payment system, Social feed, Property management, Access control
-- **Impact:** 40k+ active brokers and 600+ construction companies using daily
-- **Platforms:** Web App and Mobile App (iOS/Android)
+My projects follow a **layered architecture** inspired by Clean Architecture and DDD principles:
 
-### 📱 **Video Conference Platform**
-Meeting and calls system using WebRTC technology for real-time communication
-- **Stack:** React, WebRTC, Node.js
-- **Features:** Video and audio calls, Screen sharing, Integrated chat
+| Layer | Responsibility | Examples |
+|-------|---------------|----------|
+| **Domain** | Core entities, types, interfaces, GraphQL schemas, permissions | `User.ts`, `user.graphql`, `userPermissions.ts` |
+| **Infrastructure** | External communication — APIs, REST, GraphQL clients, WebSocket, integrations | `userService.ts`, `apiClient.ts` |
+| **Application** | Global utilities, helpers, constants, translations | `formatDate.ts`, `i18n/`, `constants/` |
+| **Presentation** | Pages, components, state management, UI logic | `UserProfile.tsx`, `useUserStore.ts` |
 
-### 🎨 **High-Impact Landing Pages**
-Multiple static and dynamic landing page projects focused on conversion
-- **Stack:** React, Next.js, TypeScript, Styled Components
+**Why this matters:** Code stays organized as the project scales. New devs onboard faster. Refactoring is safer.
+
+<br/>
+
+## 🚀 What I've Built
+
+### 🏗️ DWV — Real Estate Platform
+> Brazil's largest B2B real estate hub connecting developers and brokers
+
+**My role:** Lead Frontend Engineer — responsible for architecture, technical decisions, and implementation
+
+**Technical highlights:**
+- Architected the frontend with layered separation (Domain/Infrastructure/Application/Presentation)
+- Built real-time features using WebSocket with Singleton pattern for connection management
+- Integrated multiple external APIs and payment systems
+- Implemented access control and permission system at the frontend layer
+
+**Stack:** React, Next.js, React Native (Expo), TypeScript, GraphQL, Zustand
+
+**Impact:** Platform serves 40k+ active brokers and 600+ construction companies daily
+
+---
+
+### 📹 Video Conference Platform
+> Real-time communication system using WebRTC
+
+**Technical highlights:**
+- Implemented peer-to-peer video/audio calls with WebRTC
+- Built screen sharing functionality
+- Developed integrated chat system
+
+**Stack:** React, WebRTC, Node.js, TypeScript
+
+---
+
+### ⚡ Performance Optimization Project (In Progress)
+> Self-initiated project to improve application performance
+
+**What I'm doing:**
+- Auditing bundle size and implementing code splitting strategies
+- Analyzing and optimizing Web Vitals metrics
+- Implementing lazy loading patterns for assets and components
+- Creating actionable quick-wins roadmap based on diagnostics
 
 <br/>
 
 ## 🛠️ Tech Stack
 
-### Core Technologies
+### Core
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+### State & Data
+![Zustand](https://img.shields.io/badge/Zustand-433e38?style=for-the-badge&logo=react&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+
+### Styling
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 ### Tools & Workflow
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 <br/>
 
-## 💡 Expertise & Interests
+## 💡 What Sets Me Apart
 
 ```typescript
-const expertise = {
-  architecture: ['Clean Architecture', 'Design Patterns', 'Component Design'],
-  skills: ['Remote Work', 'Team Collaboration', 'Problem Solving'],
-  learning: ['System Design', 'Performance Optimization', 'AI Integration'],
-  languages: {
-    portuguese: 'Native',
-    english: 'Professional Working',
-    spanish: 'Basic'
-  }
+const differentials = {
+  technical: [
+    'I architect before I code — layered structure, clear responsibilities',
+    'I understand why, not just how — can explain tradeoffs of technical decisions',
+    'I care about DX — clean code, good patterns, easy onboarding for teammates'
+  ],
+  
+  professional: [
+    'I identify gaps in requirements before they become bugs',
+    'I create my own action plans from abstract scopes',
+    'I proactively propose improvements (not just execute tasks)'
+  ],
+  
+  mindset: [
+    'Ownership mentality — I treat the product as if it were mine',
+    'Continuous learner — currently diving deep into performance optimization',
+    'Team player — I document decisions so knowledge is shared'
+  ]
 }
 ```
+
+<br/>
+
+## 💼 Open for Opportunities
+
+<div align="center">
+  
+  🟢 **Status:** Available for freelance and remote positions
+  
+</div>
+
+**What I can help with:**
+- 🏗️ Frontend architecture for complex applications
+- 📱 Cross-platform mobile apps (React Native + Expo)
+- ⚡ Performance audits and optimization
+- 🔧 Refactoring legacy codebases with modern patterns
+- 🎨 Figma to production-ready React
+
+**Response time:** Within 2 hours | **Availability:** 30+ hrs/week | **Timezone:** GMT-3 (flexible)
+
+📧 **Let's talk:** guilirgang@gmail.com
 
 <br/>
 
@@ -118,13 +201,13 @@ const expertise = {
 
 ## 📫 Let's Connect
 
-I'm always open to discussing new projects, remote opportunities, and interesting collaborations. Feel free to reach out!
+I'm always open to discussing architecture decisions, new projects, and interesting technical challenges. Feel free to reach out!
 
 <div align="center">
   
-  **"Turning ideas into exceptional digital experiences"**
+  **"Good code is not just code that works — it's code that scales, maintains, and empowers teams."**
   
-  ⭐️ If you like my work, please star my repositories!
+  ⭐️ If you find my work interesting, consider starring my repositories!
   
 </div>
 
